@@ -1,0 +1,33 @@
+/* .navbar{
+    width: 720px;
+    text-align: center;
+    
+    
+} */
+
+.container{
+    background-color:rgba(224, 224, 224, 0.1);
+    background-image: url("/images/pexels.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 2px;
+    align-items: center;
+    padding: 0rem;
+}
+
+.navbar{
+    background-color:#ffc107 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    
+    
+}
+
+#cont2 .container {
+    position: fixed;
+    z-index: 1;
+    margin: auto;
+    
+}  
