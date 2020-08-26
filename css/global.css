@@ -14,6 +14,14 @@
     overflow: auto;
     
 }
+
+
+.box3{
+    height:auto;
+    background-color: #eeeeee;
+    border: solid;
+    border-color: #ffc107;
+}
  .container{
    
     border-radius: 2px;
@@ -25,7 +33,7 @@
 } 
 
   #cont2 .container {
-    position: fixed;
+   
     z-index: 1;
     
     
@@ -94,18 +102,27 @@ footer h2{
     background-color: #eeeeee;
     
 }
-.box2 .row .card{
+.box2 .card{
     transition: 0.5s;
    
 }
 
-.box2 .row .card:hover{
-    transform: scale(1.2);
+.box2 .card:hover{
+    transform: scale(1.05);
     background:#bdbdbd;
     z-index: 2;
+}
+
+.box3 .card{
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
 
 .btn{
     background-color: #ef9a9a;
     
+}
+
+#contact h2{
+    margin-left:4rem ;
 }

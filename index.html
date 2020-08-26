@@ -16,14 +16,34 @@
     <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
     <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
 
-   
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+      </style>
   
 </head>
 <body style="background-color: #eeeeee;">
     <header>
         
             <div  class="container mx-auto"   >
-                <nav class="navbar col" style="position:fixed; z-index:1; " > 
+                <nav class="navbar col"  > 
                      <h1>Merve Kılıç</h1> 
                     <ul>
                         <li><a id="h" href="#home"> anasayfa</a></li>
@@ -102,7 +122,7 @@
         </section>
             <section id="articles">
                 <div class="row">
-                    <div class="box2 col">
+                    <div class="box3 col">
                         <div class="card">
                             <div class="card-body">
                               <h4 class="card-title">Card title</h4>
@@ -139,9 +159,11 @@
    
 
     <footer >
-        <section id="contact"></section>
+        <section id="contact">
         <h2>iletişim</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, voluptas.</p>
+        </section>
+        
     </footer>
    
     <script src="app.js"></script>
